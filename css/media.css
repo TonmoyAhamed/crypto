@@ -1,0 +1,231 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /*header */
+    .menu li {
+        margin-left: 0;
+      }
+      a.play-now {
+        margin-left: 0;
+        margin-top: 30px;
+      }
+    /*header */
+    /*banner */
+    .banner {
+        height: 400px;
+      }
+    /*banner */
+    /*feature*/
+    section.feature {
+        padding: 50px 0;
+      }
+      .feature-heading p {
+       padding: 0;
+      }
+      .feature-single-content {
+        margin-top: 40px;
+      }
+    /*feature*/
+    /*about*/
+    section.about {
+        padding: 30px 0;
+      }
+      .about-img {
+        width: 100%;
+        height: 100%;
+      }
+      .about-content {
+        margin-top: 50px;
+        text-align: center;
+      }
+      .icon-content img {
+        width: 50px;
+      }
+    /*about*/
+    /*service */
+    .service-heading p {
+        padding: 0;
+      }
+      .service-single-item {
+        margin-top: 45px;
+      }
+    /*service */
+    /*customer */
+    .customer {
+        padding: 30px 0;
+      }
+      .customer-review {
+        padding: 30px 0;
+      }
+      .review-slider-single::after {
+        height: 57px;
+      }
+    /*customer */
+    /*footer*/
+    .other-page-link {
+        margin: 40px 0 30px 0px;
+      }
+    /*footer*/
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /*header */
+    .menu li {
+        margin-left: 0;
+      }
+      a.play-now {
+        margin-left: 0;
+        margin-top: 30px;
+      }
+    /*header */
+    /*banner */
+    .banner {
+        height: 400px;
+      }
+    /*banner */
+    /*feature*/
+    section.feature {
+        padding: 50px 0;
+      }
+      .feature-heading p {
+       padding: 0;
+      }
+      .feature-single-content {
+        margin-top: 40px;
+      }
+    /*feature*/
+    /*about*/
+    section.about {
+        padding: 30px 0;
+      }
+      .about-img {
+        width: 100%;
+        height: 100%;
+      }
+      .about-content {
+        margin-top: 50px;
+        text-align: center;
+      }
+      .icon-content img {
+        width: 50px;
+      }
+    /*about*/
+    /*service */
+    .service-heading p {
+        padding: 0;
+      }
+      .service-single-item {
+        margin-top: 45px;
+      }
+    /*service */
+    /*customer */
+    .customer {
+        padding: 30px 0;
+      }
+      .customer-review {
+        padding: 30px 0;
+      }
+      .review-slider-single::after {
+        height: 57px;
+      }
+    /*customer */
+    /*footer*/
+    .other-page-link {
+        margin: 40px 0 30px 0px;
+      }
+    /*footer*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*header */
+    .menu li {
+        margin-left: 0;
+      }
+      a.play-now {
+        margin-left: 0;
+        margin-top: 30px;
+      }
+    /*header */
+    /*banner*/
+    .banner {
+        height: 770px;
+      }
+    /*banner*/
+    /*feature*/
+    .feature-heading p {
+        padding: 0px 66px;
+      }
+      .feature-single-content {
+        margin-top: 50px;
+      }
+    /*feature*/
+    /*about*/
+    .about-img {
+        width: 100%;
+        height: 100%;
+      }
+      .icon-content img {
+        width: 60px;
+      }
+    /*about*/
+    /*service*/
+    .service-heading p {
+        padding: 0 80px;
+      }
+    /*service*/
+    /*counter*/
+    .single-counting {
+        border-radius: 0;
+        padding: 10px;
+      }
+      .counting-number {
+        font-size: 35px;
+        margin: 23px 0;
+      }
+    /*counter*/
+    /*review*/
+    .review-slider-single::after {
+        right: -71%;
+        height: 61px;
+      }
+    /*review*/
+    /*footer*/
+    .other-page-link ul li a {
+        font-size: 12px;
+      }
+      .footer-logo-part p {
+        font-size: 13px;
+      }
+      .newslater p {
+        margin-bottom: 20px;
+        font-size: 13px;
+      }
+      .newslater form input {
+        font-size: 13px;
+      }
+    /*footer*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner {
+        height: 992px;
+      }
+      /*about*/
+      .about-img {
+        width: 100%;
+        height: 100%;
+      }
+      /*about*/
+      /*counting*/
+      .counting-number {
+        font-size: 35px;
+      }
+      /*counting*/
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
